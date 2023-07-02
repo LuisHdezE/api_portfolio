@@ -1,0 +1,23 @@
+{
+  "name": "mdv/api_portfolio",
+  "description": "API para portfolio web",
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "doctrine/orm": "^2.15"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mdv\\ApiPortfolio\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MSc Luis A. Hernández Elias",
+      "email": "luishe72@yahoo.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  }
+}
